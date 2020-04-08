@@ -23,9 +23,9 @@ def circle_plot(k):
     plt.show()
 
 
-def trans(l,a,b):
+def conic_section(l,a,b):
     theta = np.arange(0, 2*np.pi, 0.01)
-    r = np.arange(0, l)
+    r = np.arange(0, l + 1)
     for i in r:
         x = (i * a)* np.cos(theta)
         y = (i * b) * np.sin(theta)
