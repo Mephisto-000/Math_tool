@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eee922ff-7ebd-4dbc-86fd-9d697334f09f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plot_transform.py" beforeDir="false" afterPath="$PROJECT_DIR$/plot_transform.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +88,7 @@
       <workItem from="1586357867466" duration="1199000" />
       <workItem from="1586360403302" duration="33000" />
       <workItem from="1586360438678" duration="954000" />
-      <workItem from="1586361457557" duration="114000" />
+      <workItem from="1586361457557" duration="884000" />
     </task>
     <servers />
   </component>
