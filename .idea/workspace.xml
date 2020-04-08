@@ -28,7 +28,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.plot_transform">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Math_tool" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -70,9 +70,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="wheel_plot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Math_tool" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\Jack\AppData\Local\Programs\Python\Python38-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wheel_plot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.plot_transform" />
+        <item itemvalue="Python.wheel_plot" />
       </list>
     </recent_temporary>
   </component>
@@ -89,7 +109,7 @@
       <workItem from="1586357867466" duration="1199000" />
       <workItem from="1586360403302" duration="33000" />
       <workItem from="1586360438678" duration="954000" />
-      <workItem from="1586361457557" duration="1263000" />
+      <workItem from="1586361457557" duration="5646000" />
     </task>
     <servers />
   </component>
@@ -109,9 +129,48 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="828" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586361299430" />
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1586370202297">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586370202297" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1586370202297">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586370202297" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1586370202295">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586370202295" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1586370202297">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586370202297" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1586370202297">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586370202297" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1586370202297">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586370202297" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1586370202297">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586370202297" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1586370202297">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586370202297" />
     <state x="270" y="57" key="SettingsEditor" timestamp="1586361535733">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586361535733" />
+    <state x="737" y="67" width="672" height="678" key="search.everywhere.popup" timestamp="1586367993430">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="737" y="67" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1586367993430" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Math_tool$wheel_plot.coverage" NAME="wheel_plot Coverage Results" MODIFIED="1586369477763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

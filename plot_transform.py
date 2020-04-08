@@ -3,11 +3,6 @@ import matplotlib.pyplot as plt
 import math
 
 
-# x = rad * np.cos(theta)
-# y = rad * np.sin(theta)
-#
-# plt.fill(x, y, color = 'white', linestyle = '-')
-
 
 
 def circle_plot(k):
@@ -18,6 +13,9 @@ def circle_plot(k):
         y = i * np.sin(theta)
         plt.plot(x, y, color = 'red', linestyle = '-', linewidth = 2)
         plt.plot(i)
+    plt.axvline(0, 0, 1, color='Black', linestyle='--')
+    plt.axhline(0, 0, 1, color='Black', linestyle='--')
+    plt.plot(0, 0, 'o', color='Black', linewidth=5)
     plt.axis('equal')    
     plt.grid()
     plt.show()
@@ -31,18 +29,23 @@ def conic_section(l,a,b):
         y = (i * b) * np.sin(theta)
         plt.plot(x, y, color = 'red', linestyle = '-', linewidth = 2)
         plt.plot(i)
+    plt.axvline(0, 0, 1, color='Black', linestyle='--')
+    plt.axhline(0, 0, 1, color='Black', linestyle='--')
+    plt.plot(0, 0, 'o', color='Black', linewidth=5)
     plt.axis('equal')    
     plt.grid()
     plt.show()
 
 
-def line(u):
-    ur = np.arange(0,u)
-    for i in ur:
-        x = np.arange(-i, i)
-        y = (j for j in range(i))
-        yl = np.array(list(y))
-        plt.plot(xl, yl, color = 'red') 
+def line(a, b, c, d, cl):
+    x = [a, c]
+    y = [b, d]
+    plt.plot(x, y, '-', color = '%s' %cl, linewidth = 2)
+    plt.axvline(0, 0, 1, color='Black', linestyle='--')
+    plt.axhline(0, 0, 1, color='Black', linestyle='--')
+    plt.plot(0, 0, 'o', color = 'Black', linewidth = 5)
+    plt.axis('equal')
+    plt.grid()
     plt.show()
 
 
@@ -50,7 +53,7 @@ def line(u):
 
 if __name__ =='__main__':
 
-
+    
 
 
 
